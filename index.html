@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Note</title>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <!-- popup -->
+    <div class="popup" id="popup">
+        <div class="popup_content">
+            <div class="popup_header">
+                <p id="popuptitle">Add New Note</p>
+                <span id="cross_btn"><i class="fa-solid fa-xmark"></i></span>
+            </div>
+            <form class="popup_body">
+                <!-- input inner -->
+                <div class="input_inner">
+                    <label for="">Title</label>
+                    <input id="input_title" type="text">
+                </div>
+                <!-- input inner -->
+                <div class="input_inner">
+                    <label for="">Descreption</label>
+                    <input id="input_descreption" type="text">
+                </div>
+                <button id="submit_btn" class="submit_btn" type="submit">Add Note</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="wrapper">
+            <ul id="wrapper_id">
+                <!-- add box -->
+                <li class="add_box" id="add_box">
+                    <div class="icon"><i class="fa-solid fa-plus"></i></div>
+                    <p>Add New Note</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- script link -->
+    <script src="assets/app.js"></script>
+</body>
+
+</html>
